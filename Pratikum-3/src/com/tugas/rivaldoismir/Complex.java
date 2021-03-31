@@ -12,8 +12,7 @@ public class Complex {
                 n2 = new Complex(3.4, 5.0),
                 temp;
         temp = add(n1, n2);
-        System.out.printf("Sum = %.1f + %.1fi", temp.real,
-                temp.imag);
+        System.out.printf("Sum = %.1f + %.1fi", temp.real,temp.imag);
     }
     public static Complex add(Complex n1, Complex n2)
     {

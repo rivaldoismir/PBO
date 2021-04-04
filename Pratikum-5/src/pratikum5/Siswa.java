@@ -2,11 +2,6 @@ package pratikum5;
 import java.util.ArrayList;
 
 public class Siswa {
-    //Buat class Siswa dengan atribut nim, nama,nilai teori dan nilai praktek
-//    Class Siswa memiliki method setNim, setNama, setTeori, setPraktek, getNim, getNama, getTeori, getPraktek, getRata
-//    Buat class nilaiSiswa yang digunakan untuk memasukkan sejumlah data disimpan dalam array dan sekal
-//        igus dapat menampilkan data yang sudah di masukkan.
-
 
     private ArrayList<String> nim = new ArrayList<String>();
     private ArrayList<String> nama = new ArrayList<String>();

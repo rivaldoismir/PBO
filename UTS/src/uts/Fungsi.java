@@ -18,7 +18,7 @@ public class Fungsi {
         int idx = inputan.indexOf("=");
         int idx2 = inputan.indexOf("1");
         if (idx == -1 || idx2 == -1){
-            System.out.println(inputan + " adalah persamaan yang tidak valid");
+            System.out.println("persamaan yang tidak valid");
             cekInputan = "x";
         }
         String z = "+";

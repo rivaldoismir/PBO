@@ -7,7 +7,7 @@ public class Fungsi {
     Stack<Character> stackPoint = new Stack<>();
     Stack<Character> kiri = new Stack<>();
     Stack<Character> kanan = new Stack<>();
-    public String Input_Stack() {
+    public String In_Stack() {
         Scanner input = new Scanner(System.in);
         System.out.print("Input data persamaan  : ");
         String inputan = input.next();
